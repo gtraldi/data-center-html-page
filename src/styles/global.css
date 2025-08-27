@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(back.png);
+    background-image: url(../img/back.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,6 +17,7 @@ section {
     background-color: rgb(255, 255, 255);
     margin: 4rem 10rem;
     padding: 4%;
+    border-radius: 20px;
 }
 
 .pagination {
