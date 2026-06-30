@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saiba mais sobre Data Centers e o impacto dos Green Data Centers (centros de dados ecológicos) na sustentabilidade e eficiência energética global.">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Início</title>
+    <title>Home - Green Data Center</title>
 </head>
 
 <body>
     <main>
-
-        <nav class="bg-white border-gray-200">
+        <!-- Navigation bar -->
+        <nav id="main-navigation">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="https://flowbite.com/" class="flex items-center">
-                    <img src="./img/logo.png" class="h-12 mr-3" alt="Flowbite Logo" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap">Green Data
-                        Center</span>
+                <a href="./index.html" class="flex items-center">
+                    <img src="./img/logo.png" class="h-12 mr-3" alt="Green Data Center Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap">Green Data Center</span>
                 </a>
                 <button data-collapse-toggle="navbar-default" type="button"
-                    class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+                    class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-700"
                     aria-controls="navbar-default" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
+                    <span class="sr-only">Abrir menu principal</span>
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -35,38 +34,29 @@
                     </svg>
                 </button>
                 <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                    <ul
-                        class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+                    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0">
                         <li>
-                            <a href="./index.html"
-                                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-green-400 md:p-0"
-                                aria-current="page">Home</a>
-                        </li>
-
-                        <li>
-                            <a href="./datacenter.html"
-                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0">Data
-                                Center</a>
+                            <a href="./index.html" class="block py-2 pl-3 pr-4 active-nav" aria-current="page">Home</a>
                         </li>
                         <li>
-                            <a href="./greendatacenter.html"
-                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0">Green
-                                Data Center</a>
+                            <a href="./datacenter.html" class="block py-2 pl-3 pr-4">Data Center</a>
                         </li>
                         <li>
-                            <a href="./vantagens.html"
-                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0">Vantagens</a>
+                            <a href="./greendatacenter.html" class="block py-2 pl-3 pr-4">Green Data Center</a>
                         </li>
                         <li>
-                            <a href="./saibamais.html"
-                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0">Saiba
-                                Mais</a>
+                            <a href="./vantagens.html" class="block py-2 pl-3 pr-4">Vantagens</a>
+                        </li>
+                        <li>
+                            <a href="./saibamais.html" class="block py-2 pl-3 pr-4">Saiba Mais</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section>
+
+        <!-- Main Content -->
+        <section id="introduction-section">
             <div class="title">
                 <h1>Introdução</h1>
             </div>
@@ -77,16 +67,16 @@
                         aplicativos, redes corporativas e muito mais. Eles são projetados para garantir a
                         disponibilidade de dados com segurança e integridade das informações armazenadas.</p>
                 </div>
-                <div class="box"><img class="imgTela" height="800px" width="800px"
-                        src="https://viadeacesso.files.wordpress.com/2012/04/imagem-1.png" alt=""></div>
-                <div class="box"><img class="imgTelaAlt" height="800px" width="800px"
-                        src="https://profuturo.education/wp-content/uploads/2022/12/portada-marco-referencia.png"
-                        alt=""></div>
+                <div class="box">
+                    <img class="imgTela" height="800" width="800" src="https://viadeacesso.files.wordpress.com/2012/04/imagem-1.png" alt="Servidores de Data Center Convencional">
+                </div>
+                <div class="box">
+                    <img class="imgTelaAlt" height="800" width="800" src="https://profuturo.education/wp-content/uploads/2022/12/portada-marco-referencia.png" alt="Global digital data network representation">
+                </div>
                 <div class="box">
                     <p>Com o rápido crescimento da demanda por serviços digitais, os data centers têm se tornado cada
                         vez mais complexos e sofisticados, buscando atender às necessidades crescentes de capacidade,
                         desempenho e segurança.</p>
-
                 </div>
 
                 <div style="grid-column: span 2;" class="contentContainer">
@@ -96,16 +86,14 @@
                             seguir como se dá a implementação, qual a importância e os impactos socioambientais e
                             econômicos causados por tal tecnologia nos dias de hoje.</p>
                     </div>
-                    <div class="box"><img class="imgTela" height="800px" width="800px"
-                            src="https://www.sunbirddcim.com/sites/default/files/sustainability.jpeg" alt=""></div>
+                    <div class="box">
+                        <img class="imgTela" height="800" width="800" src="https://www.sunbirddcim.com/sites/default/files/sustainability.jpeg" alt="Data Center Sustainability and Green Energy">
+                    </div>
                 </div>
             </div>
 
             <div class="pagination">
-                <!-- Previous Button -->
-
-                <a href="./datacenter.html"
-                    class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700">
+                <a href="./datacenter.html" id="next-page-btn">
                     Próximo
                     <svg aria-hidden="true" class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
@@ -116,8 +104,6 @@
                 </a>
             </div>
         </section>
-
-
     </main>
 </body>
 
